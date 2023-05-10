@@ -1,0 +1,49 @@
+.iconmenu{
+    font-size: 25px;
+    color:rgb(120,128,139)
+   
+}
+.iconmenu:hover{
+    color: white!important;
+}
+.icondivs{
+background-color: rgb(70,79,86);
+border-radius: 50%!important;
+width: 55px;
+height: 55px;
+padding: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 30px 0px;
+box-shadow: 0 3px 15px rgba(0,0,0,.3);
+}
+.icondivs:hover{
+    background-color: rgb(39,174,95);
+    
+}
+.buttonclick{
+    background-color: rgb(39,174,95);
+    color: white;
+}
+
+.menudiv{
+    background-color: rgb(26,29,44);
+}
+
+
+@media screen and (min-width:290px) and (max-width:991px) {
+    .menudiv{
+        display: flex;
+        padding-left:0px!important;
+        padding-right:0!important;
+        margin-left: 40px!important;
+        float: left;
+       
+    }
+    .icondivs{
+        margin-right: 15px!important;
+    }
+    
+    
+}

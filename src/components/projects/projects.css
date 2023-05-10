@@ -1,0 +1,73 @@
+.projectmaindiv{
+    background-color: rgb(26,29,44);
+    min-height: 100vh;
+}
+.projectheading1{
+    color: rgb(39,174,95); 
+}
+.projectheadingmain{
+    font-size: 60px;
+}
+.projectparamain{
+    font-size: 19px;
+    color: white;
+}
+.projectdivs{
+    /* border: 1px solid white; */
+    border-radius: 7px;
+    height: 230px;
+    /* width: 200vw; */
+    margin: 5px;
+    
+    background-color:rgb(39,174,95);
+    
+    
+
+}
+.projectdivs:hover{
+    background-color:rgb(63, 63, 255);
+    color: white!important;
+    
+    
+    
+}
+
+.projecticon{
+    font-size: 50px!important;
+}
+.iconlinkproject{
+    color: white;
+}
+.iconlinkproject:hover{
+    color: black;
+}
+
+@media screen and (min-width:290px) and (max-width:991px) {
+    .lastdivproject{
+      position: absolute;
+      top: 2px;
+      left: -5px;
+    }
+    .projectmaindiv{
+        padding-top: 75px;
+    }
+}
+.contactspan{
+    color: rgb(39,174,95);
+    font-size: 30px;
+}
+.spanlink{
+    color: rgb(39,174,95);
+    text-decoration: none;
+}
+.spanlink:hover{
+    color: rgb(39,174,95);
+    text-decoration: none;
+}
+.contactspanhead{
+    background-color: #2a2e35;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+

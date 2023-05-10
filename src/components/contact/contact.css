@@ -1,0 +1,116 @@
+.contactmaindiv{
+    background-color:  rgb(26,29,44);
+    min-height: 101vh;
+}
+.contacthead1{
+    color: rgb(39,174,95) ;
+}
+.contactmainhead{
+    font-size: 40px;
+}
+.contactpara{
+    font-size: 20px;
+}
+.buttoncontact{
+    border:2px solid white ;
+    background-color:rgb(26,29,44) ;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    /* height: 50px;
+    width: 100px; */
+    /* margin: 20px; */
+    /* float: left; */
+    /* border:0px; */
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition-duration: 0.1s;
+    -webkit-transition-timing-function: linear;
+    box-shadow:1px 0 0  rgb(39,174,95)  inset;
+}
+.buttoncontact:focus{
+    background-color: rgb(39,174,95);
+    color: white;
+}
+.buttoncontact:hover{
+    /* border:2px solid rgb(39,174,95) ; */
+    -webkit-box-shadow: -250px 0 0  rgb(39,174,95) inset;
+    color: white;
+}
+
+.buttonemail{
+    border:2px solid white ;
+    background-color:rgb(26,29,44) ;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    /* height: 50px;
+    width: 100px; */
+    /* margin: 20px; */
+    /* float: left; */
+    /* border:0px; */
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition-duration: 0.1s;
+    -webkit-transition-timing-function: linear;
+    box-shadow:1px 0 0  rgb(39,174,95)  inset;
+}
+.buttonemail:focus{
+    background-color:  yellow ;
+    color: black;
+}
+.buttonemail:hover{
+    /* border:2px solid rgb(39,174,95) ; */
+    -webkit-box-shadow: -250px 0 0  yellow inset;
+    color: black;
+}
+
+.buttoncall{
+    border:2px solid white ;
+    background-color:rgb(26,29,44) ;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    /* height: 50px;
+    width: 100px; */
+    /* margin: 20px; */
+    /* float: left; */
+    /* border:0px; */
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition-duration: 0.1s;
+    -webkit-transition-timing-function: linear;
+    box-shadow:1px 0 0  rgb(39,174,95)  inset;
+}
+.buttoncall:focus{
+    background-color: rgb(60, 60, 241);
+    color: white;
+}
+.buttoncall:hover{
+    /* border:2px solid rgb(39,174,95) ; */
+    -webkit-box-shadow: -250px 0 0  rgb(60, 60, 241) inset;
+    color: white;
+}
+@media screen and (min-width:290px) and (max-width:991px) {
+    .lastdivcontact{
+      position: absolute;
+      top: 2px;
+      left: -5px;
+    }
+    .contactmaindiv{
+        padding-top: 75px;
+    }
+}
+.contactlastbuttons{
+    color: white;
+    text-decoration: none;
+}
+.contactlastbuttons:hover{
+    color: white;
+    text-decoration: none;
+}
+.contactlastbuttons1{
+    color: white;
+    text-decoration: none;  
+}
+.contactlastbuttons1:hover{
+    color:black;
+    text-decoration: none;
+}

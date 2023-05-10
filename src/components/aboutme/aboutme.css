@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo Black'); 
+.maindivhome1{
+    
+    background-color: rgb(26,29,44);
+}
+.maindivhome{
+    background-color:rgb(26,29,44) ;
+    
+}
+.homeheading{
+    color:rgb(39,174,95)
+}
+.homemainheading{
+    font-size: 60px;
+    /* font-family: 'Archivo Black'; */
+}
+.homepara{
+    font-size: 20px;
+}
+.buttonhome{
+    border:2px solid rgb(39,174,95) ;
+    background-color:rgb(26,29,44) ;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    /* height: 50px;
+    width: 100px; */
+    /* margin: 20px; */
+    /* float: left; */
+    /* border:0px; */
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: linear;
+    box-shadow:1px 0 0  rgb(39,174,95)  inset;
+}
+.buttonhome:focus{
+    background-color: rgb(39,174,95);
+    color: white;
+}
+.buttonhome:hover{
+    /* border:2px solid rgb(39,174,95) ; */
+    -webkit-box-shadow: -220px 0 0  rgb(39,174,95) inset;
+    color: white;
+}
+.progress-bar{
+    background-color:  rgb(26,29,44);
+}
+.about-stats {
+    padding-bottom: 4rem;
+  }
+  .about-stats .progress-bars {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+  .about-stats .progress-bars .progress-bar {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-stats .progress-bars .progress-bar .prog-title {
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con {
+    display: flex;
+    align-items: center;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .prog-text {
+    color:grey;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress {
+    width: 100%;
+    height: 0.45rem;
+    background-color: grey;
+    margin-left: 1rem;
+    position: relative;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgb(39,174,95);;
+    transition: all 0.4s ease-in-out;
+    width: 60%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .html {
+    width: 80%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .css {
+    width: 95%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .js {
+    width: 75%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .react {
+    width: 60%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .node {
+    width: 87%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .python {
+    width: 70%;
+  }
+  .paraedu{
+    font-size: 25px;
+  }
+    
+  .dateedu{
+    border: 1px solid white;
+    background-color: grey;
+    border: none;
+   }
+   .dateedu:hover{
+    background-color:rgb(39,174,95); ;
+   }
+   .eduqua{
+    color: rgb(39,174,95);
+   }
+   @media screen and (min-width:290px) and (max-width:991px) {
+    .lastdivaboutme{
+      position: absolute;
+      top: 2px;
+      left: -5px;
+    }
+    .maindivhome{
+      padding-top: 80px;
+    }
+
+   }
+ 
